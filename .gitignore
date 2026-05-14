@@ -1,0 +1,21 @@
+# Chrome profile
+chrome_profile/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Debug artifacts
+debug/
+*.png
+
+# Observation logs (optional -- keep or ignore)
+observations.jsonl
+
+# Manifest (user-specific state)
+manifest.json
+
+# IDE
+.vscode/
+.idea/
