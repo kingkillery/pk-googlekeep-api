@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Keep Exporter</h1>
+    <p id="status">Click extract to scan notes on this page.</p>
+    <button id="extractBtn" class="btn-primary">Extract Notes</button>
+
+    <div id="results" class="hidden">
+      <div class="results-header">
+        <p id="count"></p>
+        <label class="select-all-label">
+          <input type="checkbox" id="selectAll"> Select All
+        </label>
+      </div>
+      <div id="noteList" class="note-list"></div>
+      <div class="btn-row">
+        <button id="saveSelectedBtn" class="btn-secondary">💾 Save Selected</button>
+        <button id="saveAllBtn" class="btn-secondary btn-muted">Save All</button>
+      </div>
+    </div>
+
+    <div id="error" class="hidden error"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
