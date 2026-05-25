@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# State files
+keep_api_state.json
+keep_token.json
+keep_full_sync_state.json
